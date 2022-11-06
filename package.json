@@ -1,0 +1,27 @@
+{
+  "name": "mongoose-repository-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-zheng-teki/mongoose-repository-pattern.git"
+  },
+  "author": "ryan zheng",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/ryan-zheng-teki/mongoose-repository-pattern/issues"
+  },
+  "homepage": "https://github.com/ryan-zheng-teki/mongoose-repository-pattern#readme"
+}

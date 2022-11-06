@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "lib": [
+        "ESNext" /* ESNext includes new Level-4 features that were
+                 recently added to the ECMA-262 JS spec */
+       ],
+      "noImplicitAny": true,
+      "moduleResolution": "node", 
+      "module": "esNext",
+      "esModuleInterop": true,
+      "target": "ES2021",
+      "allowJs": true
+    },
+    "baseUrl": ".",
+    "paths": {
+        "@modules/*": ["./src/models/*"],
+        "@services/*": ["./src/services/*"]
+    },
+    "ts-node": {
+      "esm": true
+    },
+    "exclude":[
+      "node_modules"
+    ],
+  }
